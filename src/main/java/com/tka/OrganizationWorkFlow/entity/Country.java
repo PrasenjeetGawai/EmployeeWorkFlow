@@ -1,4 +1,4 @@
-package com.tka.DatabaseDemo2.entity;
+package com.tka.OrganizationWorkFlow.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

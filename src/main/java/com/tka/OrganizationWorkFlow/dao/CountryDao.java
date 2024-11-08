@@ -1,4 +1,4 @@
-package com.tka.DatabaseDemo2.dao;
+package com.tka.OrganizationWorkFlow.dao;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.tka.DatabaseDemo2.entity.Country;
+import com.tka.OrganizationWorkFlow.entity.Country;
 
 @Repository
 public class CountryDao {

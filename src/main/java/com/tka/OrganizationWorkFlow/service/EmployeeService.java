@@ -1,4 +1,4 @@
-package com.tka.DatabaseDemo2.service;
+package com.tka.OrganizationWorkFlow.service;
 
 import java.util.HashMap;
 import java.util.List;
@@ -8,9 +8,8 @@ import java.util.Objects;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.tka.DatabaseDemo2.dao.EmployeeDao;
-
-import com.tka.DatabaseDemo2.entity.Employee;
+import com.tka.OrganizationWorkFlow.dao.EmployeeDao;
+import com.tka.OrganizationWorkFlow.entity.Employee;
 
 @Service
 public class EmployeeService {

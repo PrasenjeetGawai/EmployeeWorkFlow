@@ -1,4 +1,4 @@
-package com.tka.DatabaseDemo2.service;
+package com.tka.OrganizationWorkFlow.service;
 
 import java.util.List;
 import java.util.Objects;
@@ -6,8 +6,8 @@ import java.util.Objects;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.tka.DatabaseDemo2.dao.CountryDao;
-import com.tka.DatabaseDemo2.entity.Country;
+import com.tka.OrganizationWorkFlow.dao.CountryDao;
+import com.tka.OrganizationWorkFlow.entity.Country;
 
 @Service
 public class CountryService {

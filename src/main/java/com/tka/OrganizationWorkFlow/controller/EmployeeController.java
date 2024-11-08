@@ -1,4 +1,4 @@
-package com.tka.DatabaseDemo2.controller;
+package com.tka.OrganizationWorkFlow.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tka.DatabaseDemo2.entity.Employee;
-import com.tka.DatabaseDemo2.service.EmployeeService;
+import com.tka.OrganizationWorkFlow.entity.Employee;
+import com.tka.OrganizationWorkFlow.service.EmployeeService;
 
 @RestController
 @RequestMapping("employeeApi")

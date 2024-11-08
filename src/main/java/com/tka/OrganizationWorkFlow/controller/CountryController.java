@@ -1,4 +1,4 @@
-package com.tka.DatabaseDemo2.controller;
+package com.tka.OrganizationWorkFlow.controller;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tka.DatabaseDemo2.entity.Country;
-import com.tka.DatabaseDemo2.service.CountryService;
+import com.tka.OrganizationWorkFlow.entity.Country;
+import com.tka.OrganizationWorkFlow.service.CountryService;
 
 @RestController
 @RequestMapping("countryApi")

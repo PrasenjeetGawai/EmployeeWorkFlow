@@ -1,13 +1,13 @@
-package com.tka.DatabaseDemo2;
+package com.tka.OrganizationWorkFlow;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DatabaseDemo2Application {
+public class OrganizationWorkFlowApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DatabaseDemo2Application.class, args);
+		SpringApplication.run(OrganizationWorkFlowApplication.class, args);
 		System.out.println("Application Started...");
 		
 		
